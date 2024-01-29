@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/198ddb8cff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Reports the values of the die and the sum -->
+    <h1 class="text-white bg-dark">Let's Roll the Dice!</h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2>
+      If the dice add to anything above 9, you win $5! <br>
+      If the dice add to 5 or less, I win $5. <br>
+      Ready to play?
+    </h2>
+
+    <!-- JS will input the content -->
+    <h3></h3>
+
+    <div>
+      <p>Do you want to roll the dice?</p>
+      <button type = "button" name = "button" class="myBtn btn btn-info" onclick="letsPlay()">Let's Play Again!</button>
+    </div>
+
+    <div class="dice">
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+
+  <footer class="text-dark text-opacity-25"><i class="icon fa-solid fa-dice fa-2x"></i>
+    COGS3 - Dice Game Bet 10 - Santiago Duque - 09/03/2023<i class="icon fa-solid fa-dice fa-2x"></i>
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
